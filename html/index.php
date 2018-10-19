@@ -10,11 +10,11 @@
 	$features = array(
 		'word' => 'exact word',
 		'stem' => 'lemma',
-		'syn'  => 'synonyms',
-		'syn_lem'  => 'lemma + synonyms',		
-		'3gr'  => 'character 3-gram'
+		'syn'  => 'semantic',
+		'syn_lem'  => 'lemma + semantic',		
+		'3gr'  => 'sound'
 	);
-	$selected_feature = 'syn_lem';
+	$selected_feature = 'stem';
 	$page = 'search';
 ?>
 
@@ -32,9 +32,6 @@
 	<p>
 		The Tesserae project aims to provide a flexible and robust web interface for exploring intertextual parallels. 
 		Select two poems below to see a list of lines sharing two or more words (regardless of inflectional changes).
-	</p>
-	<p>	
-		For explanations of advanced features, see the <a href="<?php echo $url_html . '/help_advanced.php' ?>">Instructions</a> page.
 	</p>
 	
 

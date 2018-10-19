@@ -15,8 +15,7 @@
 		<!--head_insert-->
 
 		<title>Tesserae</title>
-
-	</head>
+ 	</head>
 	<body>
 
 		<div id="container">
